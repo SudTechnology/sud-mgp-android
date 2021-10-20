@@ -1,1 +1,1 @@
-# mgp-core-android
+# sud-mgp-android
