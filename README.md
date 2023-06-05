@@ -3,7 +3,7 @@
 
 ## 安装方式：
 ### 1. 手动方式集成：
-#### 下载 [sud-mgp-android](https://github.com/SudTechnology/sud-mgp-android/releases)
+#### 下载 [SudMGP](https://github.com/SudTechnology/sud-mgp-android/releases)
 ##### 标准版本SudMGP SDK: SudMGP-Android-v1.3.1.1127.zip
 ##### Lite版本SudMGP SDK: SudMGP-Android-v1.3.1.1127-lite.zip
 ##### 多语言语音识别扩展库(可选): SudASR-Android-v1.3.1.1127.zip
@@ -15,15 +15,13 @@
 implementation 'tech.sud.mgp:SudASR:1.3.1.1127'
 // 标准版本SudMGP SDK
 implementation 'tech.sud.mgp:SudMGP:1.3.1.1127'
-
 ```
-#### Lite版本，依赖Lite版SudMGP SDK
+#### Lite版本，依赖Lite版本SudMGP SDK
 ```ruby
 // 多语言语音识别扩展库(可选)
 implementation 'tech.sud.mgp:SudASR:1.3.1.1127'
 // Lite版本SudMGP SDK
 implementation 'tech.sud.mgp:SudMGP-lite:1.3.1.1127'
-
 ```
 
 ## 说明：  
