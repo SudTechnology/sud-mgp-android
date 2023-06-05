@@ -7,7 +7,7 @@
 ##### 标准版本SudMGP SDK: SudMGP-Android-v1.3.1.1127.zip
 ##### Lite版本SudMGP SDK: SudMGP-Android-v1.3.1.1127-lite.zip
 ##### 多语言语音识别扩展库(可选): SudASR-Android-v1.3.1.1127.zip
-##### 手动集成详细步骤请看 [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md)
+###### 手动集成详细步骤请看 [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md)
 ### 2. 通过Maven集成
 #### 依赖标准版本SudMGP SDK
 ```ruby
