@@ -26,6 +26,7 @@ implementation 'tech.sud.mgp:SudMGP-lite:1.3.1.1127'
 // 多语言语音识别扩展库(可选)
 implementation 'tech.sud.mgp:SudASR:1.3.1.1127'
 ```
+#### 下载 [SudMGPWrapper](https://github.com/SudTechnology/hello-sud-plus-android/tree/master/project/SudMGPWrapper)
 
 ## 说明：  
 1. 多语言语音识别扩展库，可识别英语、德语、阿拉伯语等等多语言，如需此功能，可选择集成此扩展库   
