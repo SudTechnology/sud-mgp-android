@@ -29,7 +29,7 @@ implementation 'tech.sud.mgp:SudASR:1.3.1.1127'
 ## 说明：  
 1. 多语言语音识别扩展库，可识别英语、德语、阿拉伯语等等多语言，如需此功能，可选择集成此扩展库   
 2. 如需上架Google Play，请联系Sud获取静态SDK（so库打在aar包里）
-3. 请通过SudMGPWrapper集成SDK, SudMGPWrapper在QuickStart里
+3. 请通过SudMGPWrapper集成SDK, 见QuickStart
 
 ## 集成Demo
 [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md)
