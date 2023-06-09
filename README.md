@@ -1,3 +1,4 @@
+[English](README_en.md)
 ## 怎么选择使用哪个版本SDK？
 标准版本SDK支持全部游戏；Lite版本SDK只支持部分游戏. [详细支持游戏列表](https://docs.sud.tech/zh-CN/app/Client/StartUp.html)
 
