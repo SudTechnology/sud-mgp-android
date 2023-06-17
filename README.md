@@ -13,18 +13,18 @@
 #### 依赖标准版本SudMGP SDK
 ```ruby
 // 标准版本SudMGP SDK
-implementation 'tech.sud.mgp:SudMGP:1.3.1.1127'
+implementation 'tech.sud.mgp:SudMGP:1.3.2.1154'
 
 // 多语言语音识别扩展库(可选)
-implementation 'tech.sud.mgp:SudASR:1.3.1.1127'
+implementation 'tech.sud.mgp:SudASR:1.3.2.1154'
 ```
 #### 依赖Lite版本SudMGP SDK
 ```ruby
 // Lite版本SudMGP SDK
-implementation 'tech.sud.mgp:SudMGP-lite:1.3.1.1127'
+implementation 'tech.sud.mgp:SudMGP-lite:1.3.2.1154'
 
 // 多语言语音识别扩展库(可选)
-implementation 'tech.sud.mgp:SudASR:1.3.1.1127'
+implementation 'tech.sud.mgp:SudASR:1.3.2.1154'
 ```
 
 ## 说明：  
