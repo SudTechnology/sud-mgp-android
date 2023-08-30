@@ -4,9 +4,9 @@ The standard version of the SDK supports all games, while the Lite version of th
 ## Installation Methods: 
 ### 1. Manual Integration of SudMGP SDK 
 #### Download [SudMGP](https://github.com/SudTechnology/sud-mgp-android/releases) 
-##### Standard Version SDK: SudMGP-Android-v1.3.2.1154.zip 
-##### Lite Version SDK: SudMGP-Android-v1.3.2.1154-lite.zip 
-##### Multilingual Speech Recognition Extension Library (Optional): SudMGP-Android-v1.3.2.1154.zip 
+##### Standard Version SDK: SudMGP-Android-v1.3.3.1158.zip 
+##### Lite Version SDK: SudMGP-Android-v1.3.3.1158-lite.zip 
+##### Multilingual Speech Recognition Extension Library (Optional): SudMGP-Android-v1.3.3.1158.zip 
 ###### For detailed steps on manual integration, please refer to the [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md). 
 ### 2. Integration of SudMGP SDK via Maven 
 #### Dependency on the Standard Version of SudMGP SDK
