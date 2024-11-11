@@ -12,18 +12,18 @@ The standard version of the SDK supports all games, while the Lite version of th
 #### Dependency on the Standard Version of SudMGP SDK
 ```ruby
 // Standard Version SudMGP SDK
-implementation 'tech.sud.mgp:SudMGP:1.4.7.1218'
+api 'tech.sud.mgp:SudMGP:1.4.7.1218'
 
 // Multilingual Speech Recognition Extension Library (Optional)
-implementation 'tech.sud.mgp:SudASR:1.4.7.1218'
+api 'tech.sud.mgp:SudASR:1.4.7.1218'
 ```
 #### Dependency on the Lite Version of SudMGP SDK
 ```ruby
 // Lite Version SudMGP SDK
-implementation 'tech.sud.mgp:SudMGP-lite:1.4.7.1218'
+api 'tech.sud.mgp:SudMGP-lite:1.4.7.1218'
 
 // Multilingual Speech Recognition Extension Library (Optional)
-implementation 'tech.sud.mgp:SudASR:1.4.7.1218'
+api 'tech.sud.mgp:SudASR:1.4.7.1218'
 ```
 ## Notes:   
 1. The Multilingual Speech Recognition Extension Library can recognize multiple languages such as English, German, and Arabic. If you need this feature, you can choose to integrate this extension library.    
