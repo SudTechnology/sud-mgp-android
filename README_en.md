@@ -28,9 +28,8 @@ api 'tech.sud.mgp:SudMGP-lite:1.4.7.1218'
 api 'tech.sud.mgp:SudASR:1.4.7.1218'
 ```
 ## Notes:   
-1. The Multilingual Speech Recognition Extension Library can recognize multiple languages such as English, German, and Arabic. If you need this feature, you can choose to integrate this extension library.    
-2. If you need to publish on Google Play, please contact Sud to obtain the static SDK (the so library is packed in the aar package).    
-3. Please use SudMGPWrapper to integrate the SDK, see QuickStart. 
+1. The Multilingual Speech Recognition Extension Library can recognize multiple languages such as English, German, and Arabic. If you need this feature, you can choose to integrate this extension library.   
+2. Please use SudMGPWrapper to integrate the SDK, see QuickStart. 
  
 ## Integration Demo 
 [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md)
