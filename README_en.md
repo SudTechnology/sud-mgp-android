@@ -12,6 +12,7 @@ The standard version of the SDK supports all games, while the Lite version of th
 #### Dependency on the Standard Version of SudMGP SDK
 ```ruby
 // Standard Version SudMGP SDK
+// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-static:1.4.7.1218'
 api 'tech.sud.mgp:SudMGP:1.4.7.1218'
 
 // Multilingual Speech Recognition Extension Library (Optional)
@@ -20,6 +21,7 @@ api 'tech.sud.mgp:SudASR:1.4.7.1218'
 #### Dependency on the Lite Version of SudMGP SDK
 ```ruby
 // Lite Version SudMGP SDK
+// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-lite-static:1.4.7.1218'
 api 'tech.sud.mgp:SudMGP-lite:1.4.7.1218'
 
 // Multilingual Speech Recognition Extension Library (Optional)
