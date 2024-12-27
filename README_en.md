@@ -4,28 +4,28 @@ The standard version of the SDK supports all games, while the Lite version of th
 ## Installation Methods: 
 ### 1. Manual Integration of SudMGP SDK 
 #### Download [SudMGP](https://github.com/SudTechnology/sud-mgp-android/releases) 
-##### Standard Version SDK: SudMGP-Android-v1.4.7.1218.zip 
-##### Lite Version SDK: SudMGP-Android-v1.4.7.1218-lite.zip 
-##### Multilingual Speech Recognition Extension Library (Optional): SudMGP-Android-v1.4.7.1218.zip 
+##### Standard Version SDK: SudMGP-Android-v1.4.8.1227.zip 
+##### Lite Version SDK: SudMGP-Android-v1.4.8.1227-lite.zip 
+##### Multilingual Speech Recognition Extension Library (Optional): SudMGP-Android-v1.4.8.1227.zip 
 ###### For detailed steps on manual integration, please refer to the [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md). 
 ### 2. Integration of SudMGP SDK via Maven 
 #### Dependency on the Standard Version of SudMGP SDK
 ```ruby
 // Standard Version SudMGP SDK
-// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-static:1.4.7.1218'
-api 'tech.sud.mgp:SudMGP:1.4.7.1218'
+// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-static:1.4.8.1227'
+api 'tech.sud.mgp:SudMGP:1.4.8.1227'
 
 // Multilingual Speech Recognition Extension Library (Optional)
-api 'tech.sud.mgp:SudASR:1.4.7.1218'
+api 'tech.sud.mgp:SudASR:1.4.8.1227'
 ```
 #### Dependency on the Lite Version of SudMGP SDK
 ```ruby
 // Lite Version SudMGP SDK
-// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-lite-static:1.4.7.1218'
-api 'tech.sud.mgp:SudMGP-lite:1.4.7.1218'
+// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-lite-static:1.4.8.1227'
+api 'tech.sud.mgp:SudMGP-lite:1.4.8.1227'
 
 // Multilingual Speech Recognition Extension Library (Optional)
-api 'tech.sud.mgp:SudASR:1.4.7.1218'
+api 'tech.sud.mgp:SudASR:1.4.8.1227'
 ```
 ## Notes:   
 1. The Multilingual Speech Recognition Extension Library can recognize multiple languages such as English, German, and Arabic. If you need this feature, you can choose to integrate this extension library.   
