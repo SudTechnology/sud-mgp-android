@@ -4,29 +4,29 @@ The standard version of the SDK supports all games, while the Lite version of th
 ## Installation Methods: 
 ### 1. Manual Integration of SudMGP SDK 
 #### Download [SudMGP](https://github.com/SudTechnology/sud-mgp-android/releases) 
-##### Lite Version SDK: SudMGP-Android-v1.4.9.1231-lite.zip 
-##### Standard Version SDK: SudMGP-Android-v1.4.9.1231.zip 
-##### Multilingual Speech Recognition Extension Library (Optional): SudMGP-Android-v1.4.9.1231.zip 
+##### Lite Version SDK: SudMGP-Android-v1.5.0.1234-lite.zip 
+##### Standard Version SDK: SudMGP-Android-v1.5.0.1234.zip 
+##### Multilingual Speech Recognition Extension Library (Optional): SudMGP-Android-v1.5.0.1234.zip 
 ###### For detailed steps on manual integration, please refer to the [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md). 
 ### 2. Integration of SudMGP SDK via Maven 
 #### Dependency on the Lite Version of SudMGP SDK
 ```ruby
 // Lite Version SudMGP SDK
-// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-lite-static:1.4.9.1231'
-api 'tech.sud.mgp:SudMGP-lite:1.4.9.1231'
+// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-lite-static:1.5.0.1234'
+api 'tech.sud.mgp:SudMGP-lite:1.5.0.1234'
 
 // Multilingual Speech Recognition Extension Library (Optional)
-api 'tech.sud.mgp:SudASR:1.4.9.1231'
+api 'tech.sud.mgp:SudASR:1.5.0.1234'
 ```
 
 #### Dependency on the Standard Version of SudMGP SDK
 ```ruby
 // Standard Version SudMGP SDK
-// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-static:1.4.9.1231'
-api 'tech.sud.mgp:SudMGP:1.4.9.1231'
+// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-static:1.5.0.1234'
+api 'tech.sud.mgp:SudMGP:1.5.0.1234'
 
 // Multilingual Speech Recognition Extension Library (Optional)
-api 'tech.sud.mgp:SudASR:1.4.9.1231'
+api 'tech.sud.mgp:SudASR:1.5.0.1234'
 ```
 
 ## Notes:   
