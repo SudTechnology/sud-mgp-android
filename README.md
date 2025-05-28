@@ -13,8 +13,8 @@
 #### 依赖Lite版本SudGIP SDK
 ```ruby
 // Lite版本SudGIP SDK
-// 上架Google Play需要替换成此依赖：api 'tech.sud.gip:SudGIP-lite-static:1.6.0.1240'
-api 'tech.sud.gip:SudGIP-lite:1.6.0.1240'
+// 上架Google Play需要替换成此依赖：api 'tech.sud.gip:SudGIP-static:1.6.0.1240'
+api 'tech.sud.gip:SudGIP:1.6.0.1240'
 
 // 多语言语音识别扩展库(可选)
 api 'tech.sud.gip:SudASR:1.6.0.1240'
@@ -23,8 +23,8 @@ api 'tech.sud.gip:SudASR:1.6.0.1240'
 #### 依赖标准版本SudGIP SDK
 ```ruby
 // 标准版本SudGIP SDK
-// 上架Google Play需要替换成此依赖：api 'tech.sud.gip:SudGIP-static:1.6.0.1240'
-api 'tech.sud.gip:SudGIP:1.6.0.1240'
+// 上架Google Play需要替换成此依赖：api 'tech.sud.gip:SudGIP-pro-static:1.6.0.1240'
+api 'tech.sud.gip:SudGIP-pro:1.6.0.1240'
 
 // 多语言语音识别扩展库(可选)
 api 'tech.sud.gip:SudASR:1.6.0.1240'
