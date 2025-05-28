@@ -5,8 +5,8 @@ pro版本SDK支持全部游戏；标准版本SDK只支持部分游戏. [详细�
 ## 安装方式：
 ### 1. 手动方式集成SudGIP SDK
 #### 下载 [SudGIP](https://github.com/SudTechnology/sud-mgp-android/releases)
-##### 标准版本SDK: SudGIP-Android-v1.6.0.1240-lite.zip
-##### pro版本SDK: SudGIP-Android-v1.6.0.1240.zip
+##### 标准版本SDK: SudGIP-Android-v1.6.0.1240.zip
+##### pro版本SDK: SudGIP-Android-v1.6.0.1240-pro.zip
 ##### 多语言语音识别扩展库(可选): SudASR-Android-v1.6.0.1240.zip
 ###### 手动集成详细步骤请看 [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md)
 ### 2. 通过Maven集成SudGIP SDK
