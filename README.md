@@ -1,18 +1,18 @@
 [English](README_en.md)
 ## 怎么选择使用哪个版本SDK？
-标准版本SDK支持全部游戏；Lite版本SDK只支持部分游戏. [详细支持游戏列表](https://docs.sud.tech/zh-CN/app/Client/StartUp.html)
+pro版本SDK支持全部游戏；标准版本SDK只支持部分游戏. [详细支持游戏列表](https://docs.sud.tech/zh-CN/app/Client/StartUp.html)
 
 ## 安装方式：
 ### 1. 手动方式集成SudGIP SDK
 #### 下载 [SudGIP](https://github.com/SudTechnology/sud-mgp-android/releases)
-##### Lite版本SDK: SudGIP-Android-v1.6.0.1240-lite.zip
-##### 标准版本SDK: SudGIP-Android-v1.6.0.1240.zip
+##### 标准版本SDK: SudGIP-Android-v1.6.0.1240-lite.zip
+##### pro版本SDK: SudGIP-Android-v1.6.0.1240.zip
 ##### 多语言语音识别扩展库(可选): SudASR-Android-v1.6.0.1240.zip
 ###### 手动集成详细步骤请看 [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md)
 ### 2. 通过Maven集成SudGIP SDK
-#### 依赖Lite版本SudGIP SDK
+#### 依赖标准版本SudGIP SDK
 ```ruby
-// Lite版本SudGIP SDK
+// 标准版本SudGIP SDK
 // 上架Google Play需要替换成此依赖：api 'tech.sud.gip:SudGIP-static:1.6.0.1240'
 api 'tech.sud.gip:SudGIP:1.6.0.1240'
 
@@ -20,9 +20,9 @@ api 'tech.sud.gip:SudGIP:1.6.0.1240'
 api 'tech.sud.gip:SudASR:1.6.0.1240'
 ```
 
-#### 依赖标准版本SudGIP SDK
+#### 依赖pro版本SudGIP SDK
 ```ruby
-// 标准版本SudGIP SDK
+// pro版本SudGIP SDK
 // 上架Google Play需要替换成此依赖：api 'tech.sud.gip:SudGIP-pro-static:1.6.0.1240'
 api 'tech.sud.gip:SudGIP-pro:1.6.0.1240'
 
