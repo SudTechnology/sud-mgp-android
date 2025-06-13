@@ -1,58 +1,37 @@
-## How to Choose Which Version of the SDK to Use?
-
-The **Pro version SDK** supports all games;
-The **Standard version SDK** only supports a subset of games.
-[Detailed supported game list](https://docs.sud.tech/zh-CN/app/Client/StartUp.html)
-
-## Installation Methods:
-
-### 1. Manual Integration of the SudGIP SDK
-
-#### Download from [SudGIP](https://github.com/SudTechnology/sud-mgp-android/releases)
-
-* **Standard SDK version**: SudGIP-Android-v1.6.0.1240.zip
-* **Pro SDK version**: SudGIP-Android-v1.6.0.1240-pro.zip
-* **Multilingual Speech Recognition Extension Library (optional)**: SudASR-Android-v1.6.0.1240.zip
-
-Unzip the downloaded zip file, extract the `.aar` files, copy them into your project, and add them as dependencies.
-
-### 2. Integration via Maven
-
-#### Depend on the Standard SudGIP SDK
-
+## How do I choose which version of the SDK to use? 
+The standard version of the SDK supports all games, while the Lite version of the SDK only supports some games. For a detailed list of supported games, please refer to the [Supported Games List](https://docs.sud.tech/zh-CN/app/Client/StartUp.html). 
+ 
+## Installation Methods: 
+### 1. Manual Integration of SudMGP SDK 
+#### Download [SudMGP](https://github.com/SudTechnology/sud-mgp-android/releases) 
+##### Lite Version SDK: SudMGP-Android-v1.5.3.1243-lite.zip 
+##### Standard Version SDK: SudMGP-Android-v1.5.3.1243.zip 
+##### Multilingual Speech Recognition Extension Library (Optional): SudMGP-Android-v1.5.3.1243.zip 
+###### For detailed steps on manual integration, please refer to the [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md). 
+### 2. Integration of SudMGP SDK via Maven 
+#### Dependency on the Lite Version of SudMGP SDK
 ```ruby
-// Standard SudGIP SDK
-// Use this dependency when publishing to Google Play:
-api 'tech.sud.gip:SudGIP-static:1.6.0.1240'
+// Lite Version SudMGP SDK
+// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-lite-static:1.5.3.1243'
+api 'tech.sud.mgp:SudMGP-lite:1.5.3.1243'
 
-api 'tech.sud.gip:SudGIP:1.6.0.1240'
-
-// Multilingual Speech Recognition Extension Library (optional)
-api 'tech.sud.gip:SudASR:1.6.0.1240'
+// Multilingual Speech Recognition Extension Library (Optional)
+api 'tech.sud.mgp:SudASR:1.5.3.1243'
 ```
 
-#### Depend on the Pro SudGIP SDK
-
+#### Dependency on the Standard Version of SudMGP SDK
 ```ruby
-// Pro SudGIP SDK
-// Use this dependency when publishing to Google Play:
-api 'tech.sud.gip:SudGIP-pro-static:1.6.0.1240'
+// Standard Version SudMGP SDK
+// To publish on Google Play, you need to replace it with this dependency：api 'tech.sud.mgp:SudMGP-static:1.5.3.1243'
+api 'tech.sud.mgp:SudMGP:1.5.3.1243'
 
-api 'tech.sud.gip:SudGIP-pro:1.6.0.1240'
-
-// Multilingual Speech Recognition Extension Library (optional)
-api 'tech.sud.gip:SudASR:1.6.0.1240'
+// Multilingual Speech Recognition Extension Library (Optional)
+api 'tech.sud.mgp:SudASR:1.5.3.1243'
 ```
 
-## Notes:
-
-1. The multilingual speech recognition extension library supports recognition in English, German, Arabic, and other languages. If you need this feature, you can integrate this extension library.
-2. Please integrate the SDK through `SudGIPWrapper`. See QuickStart for details.
-
-## Integration Demo
-
+## Notes:   
+1. The Multilingual Speech Recognition Extension Library can recognize multiple languages such as English, German, and Arabic. If you need this feature, you can choose to integrate this extension library.   
+2. Please use SudMGPWrapper to integrate the SDK, see QuickStart. 
+ 
+## Integration Demo 
 [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md)
-
----
-
-Let me know if you need this translated into Markdown or a different format.
