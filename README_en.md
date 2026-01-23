@@ -10,9 +10,9 @@ The **Standard version SDK** only supports a subset of games.
 
 #### Download from [SudGIP](https://github.com/SudTechnology/sud-mgp-android/releases)
 
-* **Standard SDK version**: SudGIP-Android-v1.6.6.1277.zip
-* **Pro SDK version**: SudGIP-Android-v1.6.6.1277-pro.zip
-* **Multilingual Speech Recognition Extension Library (optional)**: SudASR-Android-v1.6.6.1277.zip
+* **Standard SDK version**: SudGIP-Android-v1.6.7.1286.zip
+* **Pro SDK version**: SudGIP-Android-v1.6.7.1286-pro.zip
+* **Multilingual Speech Recognition Extension Library (optional)**: SudASR-Android-v1.6.7.1286.zip
 
 Unzip the downloaded zip file, extract the `.aar` files, copy them into your project, and add them as dependencies.
 
@@ -23,12 +23,12 @@ Unzip the downloaded zip file, extract the `.aar` files, copy them into your pro
 ```ruby
 // Standard SudGIP SDK
 // Use this dependency when publishing to Google Play:
-api 'tech.sud.gip:SudGIP-static:1.6.6.1277'
+api 'tech.sud.gip:SudGIP-static:1.6.7.1286'
 
-api 'tech.sud.gip:SudGIP:1.6.6.1277'
+api 'tech.sud.gip:SudGIP:1.6.7.1286'
 
 // Multilingual Speech Recognition Extension Library (optional)
-api 'tech.sud.gip:SudASR:1.6.6.1277'
+api 'tech.sud.gip:SudASR:1.6.7.1286'
 ```
 
 #### Depend on the Pro SudGIP SDK
@@ -36,12 +36,12 @@ api 'tech.sud.gip:SudASR:1.6.6.1277'
 ```ruby
 // Pro SudGIP SDK
 // Use this dependency when publishing to Google Play:
-api 'tech.sud.gip:SudGIP-pro-static:1.6.6.1277'
+api 'tech.sud.gip:SudGIP-pro-static:1.6.7.1286'
 
-api 'tech.sud.gip:SudGIP-pro:1.6.6.1277'
+api 'tech.sud.gip:SudGIP-pro:1.6.7.1286'
 
 // Multilingual Speech Recognition Extension Library (optional)
-api 'tech.sud.gip:SudASR:1.6.6.1277'
+api 'tech.sud.gip:SudASR:1.6.7.1286'
 ```
 
 ## Notes:
@@ -53,6 +53,3 @@ api 'tech.sud.gip:SudASR:1.6.6.1277'
 
 [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md)
 
----
-
-Let me know if you need this translated into Markdown or a different format.
