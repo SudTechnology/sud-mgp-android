@@ -5,30 +5,30 @@ pro版本SDK支持全部游戏；标准版本SDK只支持部分游戏. [详细�
 ## 安装方式：
 ### 1. 手动方式集成SudGIP SDK
 #### 下载 [SudGIP](https://github.com/SudTechnology/sud-mgp-android/releases)
-##### 标准版本SDK: SudGIP-Android-v1.6.7.1286.zip
-##### pro版本SDK: SudGIP-Android-v1.6.7.1286-pro.zip
-##### 多语言语音识别扩展库(可选): SudASR-Android-v1.6.7.1286.zip
+##### 标准版本SDK: SudGIP-Android-v1.6.8.1299.zip
+##### pro版本SDK: SudGIP-Android-v1.6.8.1299-pro.zip
+##### 多语言语音识别扩展库(可选): SudASR-Android-v1.6.8.1299.zip
 ##### 解压zip包拿到解压后的aar包，将aar包拷贝到项目中，并且在项目中依赖该aar包
 
 ### 2. 通过Maven集成SudGIP SDK
 #### 依赖标准版本SudGIP SDK
 ```ruby
 // 标准版本SudGIP SDK
-// 上架Google Play需要替换成此依赖：api 'tech.sud.gip:SudGIP-static:1.6.7.1286'
-api 'tech.sud.gip:SudGIP:1.6.7.1286'
+// 上架Google Play需要替换成此依赖：api 'tech.sud.gip:SudGIP-static:1.6.8.1299'
+api 'tech.sud.gip:SudGIP:1.6.8.1299'
 
 // 多语言语音识别扩展库(可选)
-api 'tech.sud.gip:SudASR:1.6.7.1286'
+api 'tech.sud.gip:SudASR:1.6.8.1299'
 ```
 
 #### 依赖pro版本SudGIP SDK
 ```ruby
 // pro版本SudGIP SDK
-// 上架Google Play需要替换成此依赖：api 'tech.sud.gip:SudGIP-pro-static:1.6.7.1286'
-api 'tech.sud.gip:SudGIP-pro:1.6.7.1286'
+// 上架Google Play需要替换成此依赖：api 'tech.sud.gip:SudGIP-pro-static:1.6.8.1299'
+api 'tech.sud.gip:SudGIP-pro:1.6.8.1299'
 
 // 多语言语音识别扩展库(可选)
-api 'tech.sud.gip:SudASR:1.6.7.1286'
+api 'tech.sud.gip:SudASR:1.6.8.1299'
 
 ```
 
