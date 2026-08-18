@@ -78,6 +78,13 @@ api 'tech.sud.gip:SudASR:1.6.8.1299'
 | `tech.sud.gip:SudGIP-pro-static` | Android 5.1 (API 22) |
 | `tech.sud.gip:SudASR` | Android 5.0 (API 21) |
 
+---
+
+## 说明：
+1. SudGIP、SudGIP-static、SudGIP-pro、SudGIP-pro-static均为运行游戏的SDK，同一app内只能根据需求选择其中一个集成，他们的使用接口都是一样的，差异性都封装在内部。
+
+---
+
 ## 集成Demo
 
 [QuickStart](https://github.com/SudTechnology/hello-sud-plus-android/blob/master/project/QuickStart/README.md)
