@@ -66,11 +66,11 @@ api 'tech.sud.gip:SudASR:1.6.8.1299'
 
 | Dependency | Includes Native `.so` Files | Approximate Total Size / Increase | Description |
 | --- | :---: | ---: | --- |
-| `tech.sud.gip:SudGIP` | No | Less than **1 MB** | Recommended. Adds minimal APK size. |
-| `tech.sud.gip:SudGIP-static` | Yes | About **28.9 MB** | Includes native `.so` files for four ABI architectures. |
-| `tech.sud.gip:SudGIP-pro` | No | About **7.3 MB** | Pro dynamic-library artifact; does not include native `.so` files. |
-| `tech.sud.gip:SudGIP-pro-static` | Yes | About **133.3 MB** | Includes native `.so` files for four ABI architectures. |
-| `tech.sud.gip:SudASR` | Yes | About **12.5 MB** | Multilingual speech recognition extension, including native `.so` files for four ABI architectures. |
+| `SudGIP` | No | Less than **1 MB** | Recommended. Adds minimal APK size. |
+| `SudGIP-static` | Yes | About **28.9 MB** | Includes native `.so` files for four ABI architectures. |
+| `SudGIP-pro` | No | About **7.3 MB** | Pro dynamic-library artifact; does not include native `.so` files. |
+| `SudGIP-pro-static` | Yes | About **133.3 MB** | Includes native `.so` files for four ABI architectures. |
+| `SudASR` | Yes | About **12.5 MB** | Multilingual speech recognition extension, including native `.so` files for four ABI architectures. |
 
 ### Native Library Size by ABI
 
@@ -93,6 +93,13 @@ Different SDK artifacts have different minimum Android version requirements. Con
 | `tech.sud.gip:SudGIP-pro` | Android 5.1 (API 22) |
 | `tech.sud.gip:SudGIP-pro-static` | Android 5.1 (API 22) |
 | `tech.sud.gip:SudASR` | Android 5.0 (API 21) |
+
+---
+
+## explain
+1. SudGIP, SudGIP-static, SudGIP-pro, and SudGIP-pro-static are all SDKs for running games. Within the same app, only one of them can be integrated based on requirements. Their usage interfaces are identical, with differences encapsulated internally.
+
+---
 
 ## Integration Demo
 
