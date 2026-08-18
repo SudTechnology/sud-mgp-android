@@ -27,7 +27,7 @@ api 'tech.sud.gip:SudGIP:1.6.8.1299'
 api 'tech.sud.gip:SudGIP-pro:1.6.8.1299'
 ```
 
-### 依赖SudASR SDK（可选）
+#### 依赖SudASR SDK（可选）
 ```ruby
 // 多语言语音识别扩展库，可识别英语、德语、阿拉伯语等等多语言，如需此功能，可选择集成此扩展库
 api 'tech.sud.gip:SudASR:1.6.8.1299'
