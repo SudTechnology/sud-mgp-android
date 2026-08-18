@@ -50,11 +50,11 @@ api 'tech.sud.gip:SudASR:1.6.8.1299'
 
 | 依赖产物 | 是否包含 So | 近似总体积 / 增量 | 说明 |
 | --- | :---: | ---: | --- |
-| `tech.sud.gip:SudGIP` | 否 | 小于 **1 MB** | 推荐使用，APK 包体增量较小 |
-| `tech.sud.gip:SudGIP-static` | 是 | 约 **28.9 MB** | 包含四种 ABI 架构的 So 文件 |
-| `tech.sud.gip:SudGIP-pro` | 否 | 约 **7.3 MB** | Pro 版动态库产物，不包含 So 文件 |
-| `tech.sud.gip:SudGIP-pro-static` | 是 | 约 **133.3 MB** | 包含四种 ABI 架构的 So 文件 |
-| `tech.sud.gip:SudASR` | 是 | 约 **12.5 MB** | 多语言语音识别扩展库，包含四种 ABI 架构的 So 文件 |
+| `SudGIP` | 否 | 小于 **1 MB** | 推荐使用，APK 包体增量较小 |
+| `SudGIP-static` | 是 | 约 **28.9 MB** | 包含四种 ABI 架构的 So 文件 |
+| `SudGIP-pro` | 否 | 约 **7.3 MB** | Pro 版动态库产物，不包含 So 文件 |
+| `SudGIP-pro-static` | 是 | 约 **133.3 MB** | 包含四种 ABI 架构的 So 文件 |
+| `SudASR` | 是 | 约 **12.5 MB** | 多语言语音识别扩展库，包含四种 ABI 架构的 So 文件 |
 
 ### 各 ABI So 体积参考
 
