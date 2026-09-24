@@ -12,11 +12,11 @@ For the full list of supported games, see [Supported Game List](https://docs.sud
 
 #### Download [SudGIP](https://github.com/SudTechnology/sud-mgp-android/releases)
 
-##### Standard SDK: `SudGIP-Android-v1.6.8.1299.zip`
+##### Standard SDK: `SudGIP-Android-v1.6.9.1310.zip`
 
-##### Pro SDK: `SudGIP-Android-v1.6.8.1299-pro.zip`
+##### Pro SDK: `SudGIP-Android-v1.6.9.1310-pro.zip`
 
-##### Multilingual Speech Recognition Extension (Optional): `SudASR-Android-v1.6.8.1299.zip`
+##### Multilingual Speech Recognition Extension (Optional): `SudASR-Android-v1.6.9.1310.zip`
 
 After downloading, unzip the package to obtain the `.aar` file. Copy the `.aar` file into your project and add it as a dependency.
 
@@ -27,8 +27,8 @@ After downloading, unzip the package to obtain the `.aar` file. Copy the `.aar` 
 ```gradle
 // Standard SudGIP SDK
 // For publishing to Google Play, replace this dependency with:
-// api 'tech.sud.gip:SudGIP-static:1.6.8.1299'
-api 'tech.sud.gip:SudGIP:1.6.8.1299'
+// api 'tech.sud.gip:SudGIP-static:1.6.9.1310'
+api 'tech.sud.gip:SudGIP:1.6.9.1310'
 ```
 
 #### Add the Pro SudGIP SDK Dependency
@@ -36,8 +36,8 @@ api 'tech.sud.gip:SudGIP:1.6.8.1299'
 ```gradle
 // Pro SudGIP SDK
 // For publishing to Google Play, replace this dependency with:
-// api 'tech.sud.gip:SudGIP-pro-static:1.6.8.1299'
-api 'tech.sud.gip:SudGIP-pro:1.6.8.1299'
+// api 'tech.sud.gip:SudGIP-pro-static:1.6.9.1310'
+api 'tech.sud.gip:SudGIP-pro:1.6.9.1310'
 ```
 
 #### Add the SudASR SDK Dependency (Optional)
@@ -46,7 +46,7 @@ api 'tech.sud.gip:SudGIP-pro:1.6.8.1299'
 // Multilingual speech recognition extension.
 // Supports English, German, Arabic, and other languages.
 // Add this dependency only if multilingual speech recognition is required.
-api 'tech.sud.gip:SudASR:1.6.8.1299'
+api 'tech.sud.gip:SudASR:1.6.9.1310'
 ```
 
 ---
